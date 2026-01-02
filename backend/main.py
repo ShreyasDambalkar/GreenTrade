@@ -9,7 +9,8 @@ app = FastAPI(title="GreenTrade Backend", version="0.1.0")
 origins = [
     "http://localhost:3000",
     "http://127.0.0.1:3000",
-    "https://greentrade-future.vercel.app",  # Production frontend
+    "https://green-trade-three.vercel.app",
+    "https://greentrade-future.vercel.app",
 ]
 
 app.add_middleware(
