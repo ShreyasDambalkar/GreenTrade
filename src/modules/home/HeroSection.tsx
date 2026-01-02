@@ -26,6 +26,7 @@ export default function HeroSection({ twClient, ConnectButton, CTA }: any) {
                 </p>
 
                 <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+                    <CTA href="#features" label="Menu" variant="secondary" />
                     <CTA href="/dashboard" label="Start Trading" />
                     <CTA href="#how-it-works" label="Learn More" variant="secondary" />
                 </div>
