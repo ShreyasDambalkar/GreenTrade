@@ -5,7 +5,7 @@ pydantic
 requests
 google-generativeai
 python-multipart
-opencv-python
+opencv-python-headless
 scikit-image
 fpdf
 pillow-heif
