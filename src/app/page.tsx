@@ -60,8 +60,14 @@ export default function Home() {
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <CTA href="#features" label="Menu" variant="secondary" />
-            <CTA href="/dashboard" label="Start Trading" />
+            <CTA
+              href="/dashboard"
+              label="Start Trading"
+              onClick={(e) => {
+                e.preventDefault();
+                window.dispatchEvent(new CustomEvent('open-mega-menu'));
+              }}
+            />
             <CTA href="#how-it-works" label="Learn More" variant="secondary" />
           </div>
         </Reveal>
@@ -169,12 +175,12 @@ function AmbientBackground() {
 }
 
 // Removed grid overlay to prevent any light-mode bleed-through
-function CTA({ href, label, variant = "primary" }: { href: string; label: string; variant?: "primary" | "secondary" }) {
+function CTA({ href, label, variant = "primary", onClick }: { href: string; label: string; variant?: "primary" | "secondary"; onClick?: (e: React.MouseEvent) => void }) {
   const base =
     "group relative inline-flex items-center justify-center rounded-xl px-6 py-3 font-semibold transition-all duration-300";
   if (variant === "secondary") {
     return (
-      <Link href={href} className={`btn-secondary ${base}`}>
+      <Link href={href} onClick={onClick} className={`btn-secondary ${base}`}>
         <span className="relative">{label}</span>
       </Link>
     );
@@ -182,6 +188,7 @@ function CTA({ href, label, variant = "primary" }: { href: string; label: string
   return (
     <Link
       href={href}
+      onClick={onClick}
       className={`${base} text-white bg-gradient-to-r from-indigo-600 via-violet-600 to-fuchsia-600 shadow-[0_10px_30px_-10px_rgba(99,102,241,0.6)] hover:shadow-[0_20px_40px_-12px_rgba(168,85,247,0.6)]`}
     >
       <span className="absolute -inset-px rounded-xl bg-gradient-to-r from-indigo-400/30 to-fuchsia-400/30 blur opacity-0 group-hover:opacity-100 transition-opacity" />

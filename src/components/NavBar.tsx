@@ -3,17 +3,24 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { ChevronDown, Wallet, LogOut, User } from "lucide-react";
+import MegaMenu from "./MegaMenu";
 import AIToolsDropdown, { useAIToolsDropdown } from "./AIToolsDropdown";
 import { useWallet } from "@/lib/walletContext";
 
 export default function NavBar() {
 	const { address, isConnected, connectAsGuest, connectMetaMask, disconnect, isConnecting } = useWallet();
+	const [open, setOpen] = useState(false);
 	const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 	const [connectMenuOpen, setConnectMenuOpen] = useState(false);
 	const [userMenuOpen, setUserMenuOpen] = useState(false);
 	const aiToolsDropdown = useAIToolsDropdown();
 
 
+	useEffect(() => {
+		const handleOpenMenu = () => setOpen(true);
+		window.addEventListener('open-mega-menu', handleOpenMenu);
+		return () => window.removeEventListener('open-mega-menu', handleOpenMenu);
+	}, []);
 
 	return (
 		<header className="sticky top-0 z-50 bg-zinc-950 border-b border-zinc-800">
@@ -28,6 +35,7 @@ export default function NavBar() {
 
 				{/* Desktop Navigation */}
 				<nav className="hidden lg:flex items-center text-sm text-zinc-300 space-x-2 nav-links">
+					<button onClick={() => setOpen(true)} className="px-3 py-1.5 rounded-full hover:bg-emerald-900/20 transition-colors">Menu</button>
 
 					{/* AI Tools Dropdown */}
 					<div className="relative">
@@ -129,6 +137,12 @@ export default function NavBar() {
 			{mobileMenuOpen && (
 				<div className="lg:hidden border-t border-zinc-800 bg-zinc-950 max-h-[70vh] overflow-y-auto ai-tools-scroll">
 					<div className="px-4 py-4 space-y-2">
+						<button
+							onClick={() => { setOpen(true); setMobileMenuOpen(false); }}
+							className="block w-full text-left px-3 py-2 rounded-lg text-zinc-300 hover:bg-emerald-900/20 transition-colors"
+						>
+							Menu
+						</button>
 
 						{/* AI Tools Section */}
 						<div className="py-2">
@@ -202,6 +216,7 @@ export default function NavBar() {
 				</div>
 			)}
 
+			<MegaMenu isOpen={open} onClose={() => setOpen(false)} />
 		</header>
 	);
 }
