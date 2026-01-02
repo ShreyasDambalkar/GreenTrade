@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+python-dotenv
+pydantic
+requests
+google-generativeai
+python-multipart
+opencv-python
+scikit-image
+fpdf
+pillow-heif
+numpy

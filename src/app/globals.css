@@ -1,0 +1,161 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    line-height: 1.5;
+    font-weight: 400;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: 'Inter', sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: 'slnt' 0;
+}
+
+
+@layer base {
+    body {
+        @apply bg-emerald-50 text-zinc-900;
+        /* soft teal/green ambience for light mode */
+        background-image:
+            radial-gradient(900px 600px at 20% -10%, rgba(52, 211, 153, 0.15), transparent 60%),
+            /* emerald-400 */
+            radial-gradient(700px 500px at 80% -20%, rgba(45, 212, 191, 0.12), transparent 60%),
+            /* teal-400 */
+            radial-gradient(800px 520px at 50% 120%, rgba(34, 211, 238, 0.10), transparent 60%);
+        /* cyan-400 */
+    }
+
+    .dark body {
+        @apply bg-zinc-950 text-zinc-100;
+        /* dark teal/emerald ambience */
+        background-image:
+            radial-gradient(900px 600px at 20% -10%, rgba(16, 185, 129, 0.1), transparent 60%),
+            radial-gradient(700px 500px at 80% -20%, rgba(20, 184, 166, 0.1), transparent 60%),
+            radial-gradient(800px 520px at 50% 120%, rgba(8, 145, 178, 0.1), transparent 60%);
+    }
+}
+
+/* Nice selection */
+::selection {
+    background: rgba(16, 185, 129, 0.25);
+    color: #111827;
+}
+
+.dark ::selection {
+    background: rgba(16, 185, 129, 0.35);
+    color: #F8FAFC;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Custom scrollbar for leaderboard */
+.custom-scrollbar::-webkit-scrollbar {
+    width: 8px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+    background: rgba(39, 39, 42, 0.5);
+    border-radius: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background: rgba(113, 113, 122, 0.6);
+    border-radius: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: rgba(113, 113, 122, 0.8);
+}
+
+/* subtle pulse animation */
+@keyframes pulse-soft {
+
+    0%,
+    100% {
+        opacity: 0.7;
+    }
+
+    50% {
+        opacity: 1;
+    }
+}
+
+.animate-pulse {
+    animation: pulse-soft 6s ease-in-out infinite;
+    will-change: opacity;
+}
+
+/* Progress bar animation for slideshow */
+@keyframes progress {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+.animate-progress {
+    animation: progress 5s linear infinite;
+}
+
+/* Custom scrollbar for AI Tools dropdown */
+.ai-tools-scroll::-webkit-scrollbar {
+    width: 6px;
+}
+
+.ai-tools-scroll::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.ai-tools-scroll::-webkit-scrollbar-thumb {
+    background: #3f3f46;
+    border-radius: 3px;
+}
+
+.ai-tools-scroll::-webkit-scrollbar-thumb:hover {
+    background: #52525b;
+}
+
+.dark .ai-tools-scroll::-webkit-scrollbar-thumb {
+    background: #52525b;
+}
+
+.dark .ai-tools-scroll::-webkit-scrollbar-thumb:hover {
+    background: #71717a;
+}
+
+/* Fallbacks (progressive enhancement) if Tailwind utilities fail to load */
+.nav-links a+a {
+    margin-left: 1.5rem;
+}
+
+.btn-row>*+* {
+    margin-left: 0.75rem;
+}
+
+@layer components {
+    .btn-primary {
+        @apply relative inline-flex items-center justify-center rounded-xl px-6 py-3 font-semibold text-white bg-gradient-to-r from-emerald-600 via-teal-600 to-cyan-600 transition;
+        box-shadow: 0 10px 30px -12px rgba(16, 185, 129, 0.35);
+    }
+
+    .btn-primary:hover {
+        box-shadow: 0 20px 40px -12px rgba(20, 184, 166, 0.45);
+    }
+
+    .btn-secondary {
+        @apply relative inline-flex items-center justify-center rounded-xl px-6 py-3 font-semibold text-zinc-900 border border-zinc-300 bg-white hover:bg-emerald-50 transition dark:text-zinc-100 dark:border-zinc-700 dark:bg-zinc-900 dark:hover:bg-zinc-800;
+    }
+
+    .card {
+        @apply rounded-2xl border border-zinc-200 bg-white dark:border-zinc-800 dark:bg-zinc-900;
+    }
+}
