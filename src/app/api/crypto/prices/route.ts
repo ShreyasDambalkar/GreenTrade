@@ -28,9 +28,7 @@ const CRYPTO_ASSETS: CryptoData[] = [
     low24h: 2580.30,
     marketCap: 318700000000,
     category: 'crypto',
-    contractAddress: '0x0000000000000000000000000000000000000000', // Native ETH
-    chainId: '0x1',
-    icon: 'ðŸ”·'
+    contractAddress: '0x0000000000000000000000000000000000000000'
   },
   {
     symbol: 'USDC',
@@ -42,9 +40,7 @@ const CRYPTO_ASSETS: CryptoData[] = [
     low24h: 0.999,
     marketCap: 34500000000,
     category: 'crypto',
-    contractAddress: '0xA0b86a33E6417c7a0670F219959E98Bb6C9e0ecC',
-    chainId: '0x1',
-    icon: 'ðŸ’µ'
+    contractAddress: '0xA0b86a33E6417c7a0670F219959E98Bb6C9e0ecC'
   },
   {
     symbol: 'WBTC',
@@ -56,9 +52,7 @@ const CRYPTO_ASSETS: CryptoData[] = [
     low24h: 63200.50,
     marketCap: 9850000000,
     category: 'crypto',
-    contractAddress: '0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599',
-    chainId: '0x1',
-    icon: 'â‚¿'
+    contractAddress: '0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599'
   },
   {
     symbol: 'USDT',
@@ -70,9 +64,7 @@ const CRYPTO_ASSETS: CryptoData[] = [
     low24h: 0.998,
     marketCap: 118900000000,
     category: 'crypto',
-    contractAddress: '0xdAC17F958D2ee523a2206206994597C13D831ec7',
-    chainId: '0x1',
-    icon: 'ðŸ¦'
+    contractAddress: '0xdAC17F958D2ee523a2206206994597C13D831ec7'
   },
   {
     symbol: 'UNI',
@@ -84,9 +76,7 @@ const CRYPTO_ASSETS: CryptoData[] = [
     low24h: 7.95,
     marketCap: 5070000000,
     category: 'crypto',
-    contractAddress: '0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984',
-    chainId: '0x1',
-    icon: 'ðŸ¦„'
+    contractAddress: '0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984'
   },
   {
     symbol: 'LINK',
@@ -98,9 +88,7 @@ const CRYPTO_ASSETS: CryptoData[] = [
     low24h: 14.10,
     marketCap: 8890000000,
     category: 'crypto',
-    contractAddress: '0x514910771AF9Ca656af840dff83E8264EcF986CA',
-    chainId: '0x1',
-    icon: 'ðŸ”—'
+    contractAddress: '0x514910771AF9Ca656af840dff83E8264EcF986CA'
   },
   {
     symbol: 'AAVE',
@@ -112,9 +100,7 @@ const CRYPTO_ASSETS: CryptoData[] = [
     low24h: 89.20,
     marketCap: 1430000000,
     category: 'crypto',
-    contractAddress: '0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9',
-    chainId: '0x1',
-    icon: 'ðŸ‘»'
+    contractAddress: '0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9'
   },
   {
     symbol: 'MATIC',
@@ -126,9 +112,7 @@ const CRYPTO_ASSETS: CryptoData[] = [
     low24h: 0.49,
     marketCap: 5200000000,
     category: 'crypto',
-    contractAddress: '0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0',
-    chainId: '0x1',
-    icon: 'ðŸŸ£'
+    contractAddress: '0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0'
   }
 ];
 
@@ -144,9 +128,7 @@ const CARBON_ASSETS: CryptoData[] = [
     low24h: 11.95,
     marketCap: 45600000,
     category: 'carbon',
-    contractAddress: '0x1234567890123456789012345678901234567890',
-    chainId: '0x1',
-    icon: 'ðŸŒ±'
+    contractAddress: '0x1234567890123456789012345678901234567890'
   },
   {
     symbol: 'VCU',
@@ -158,9 +140,7 @@ const CARBON_ASSETS: CryptoData[] = [
     low24h: 8.75,
     marketCap: 32100000,
     category: 'carbon',
-    contractAddress: '0x2345678901234567890123456789012345678901',
-    chainId: '0x1',
-    icon: 'âœ…'
+    contractAddress: '0x2345678901234567890123456789012345678901'
   },
   {
     symbol: 'REDD',
@@ -172,9 +152,7 @@ const CARBON_ASSETS: CryptoData[] = [
     low24h: 14.80,
     marketCap: 78900000,
     category: 'carbon',
-    contractAddress: '0x3456789012345678901234567890123456789012',
-    chainId: '0x1',
-    icon: 'ðŸŒ³'
+    contractAddress: '0x3456789012345678901234567890123456789012'
   },
   {
     symbol: 'GOLD',
@@ -186,9 +164,7 @@ const CARBON_ASSETS: CryptoData[] = [
     low24h: 21.90,
     marketCap: 156700000,
     category: 'carbon',
-    contractAddress: '0x4567890123456789012345678901234567890123',
-    chainId: '0x1',
-    icon: 'ðŸ†'
+    contractAddress: '0x4567890123456789012345678901234567890123'
   }
 ];
 
@@ -197,7 +173,7 @@ function simulatePriceUpdate(asset: CryptoData): CryptoData {
   const volatility = asset.category === 'crypto' ? 0.02 : 0.01; // Crypto more volatile
   const priceChange = (Math.random() - 0.5) * volatility;
   const newPrice = asset.price * (1 + priceChange);
-  
+
   return {
     ...asset,
     price: Math.max(0.01, newPrice),
@@ -213,9 +189,9 @@ export async function GET(request: NextRequest) {
     const { searchParams } = new URL(request.url);
     const category = searchParams.get('category'); // 'crypto', 'carbon', or 'all'
     const symbols = searchParams.get('symbols')?.split(','); // Specific symbols
-    
+
     let assets: CryptoData[] = [];
-    
+
     // Filter by category
     switch (category) {
       case 'crypto':
@@ -227,18 +203,18 @@ export async function GET(request: NextRequest) {
       default:
         assets = [...CRYPTO_ASSETS, ...CARBON_ASSETS];
     }
-    
+
     // Filter by specific symbols if requested
     if (symbols && symbols.length > 0) {
       assets = assets.filter(asset => symbols.includes(asset.symbol));
     }
-    
+
     // Simulate real-time price updates
     const updatedAssets = assets.map(simulatePriceUpdate);
-    
+
     // Sort by market cap (descending)
     updatedAssets.sort((a, b) => b.marketCap - a.marketCap);
-    
+
     return NextResponse.json({
       success: true,
       data: updatedAssets,
@@ -252,12 +228,12 @@ export async function GET(request: NextRequest) {
         }
       }
     });
-    
+
   } catch (error) {
     console.error('Error fetching market data:', error);
     return NextResponse.json(
-      { 
-        success: false, 
+      {
+        success: false,
         error: 'Failed to fetch market data',
         data: []
       },
@@ -271,20 +247,20 @@ export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
     const { contractAddress, chainId, userAddress } = body;
-    
+
     if (!contractAddress || !chainId || !userAddress) {
       return NextResponse.json(
         { success: false, error: 'Missing required parameters' },
         { status: 400 }
       );
     }
-    
+
     // In a real implementation, you would:
     // 1. Validate the contract address using Infura/MetaMask
     // 2. Fetch token metadata from the blockchain
     // 3. Get real-time price data from DEX APIs
     // 4. Store custom token in user's portfolio
-    
+
     // Mock response for demonstration
     const customToken: CryptoData = {
       symbol: 'CUSTOM',
@@ -297,16 +273,15 @@ export async function POST(request: NextRequest) {
       marketCap: 1000000,
       category: 'token',
       contractAddress,
-      chainId,
-      icon: 'ðŸª™'
+      icon: '🪙'
     };
-    
+
     return NextResponse.json({
       success: true,
       message: 'Custom token added successfully',
       token: customToken
     });
-    
+
   } catch (error) {
     console.error('Error adding custom token:', error);
     return NextResponse.json(
