@@ -1,7 +1,7 @@
 # 🌍 GreenTrade: AI-Powered Carbon Marketplace
 
 <div align="center">
-  <img src="public/favicon.ico" alt="GreenTrade Logo" width="100" />
+  <img src="public/logo.png" alt="GreenTrade Logo" width="200" />
   <br />
   <br />
 
@@ -9,13 +9,18 @@
   [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
   [![Thirdweb](https://img.shields.io/badge/Thirdweb-SDK-f213c4?style=for-the-badge&logo=thirdweb)](https://thirdweb.com/)
   [![Supabase](https://img.shields.io/badge/Supabase-Database-3ecf8e?style=for-the-badge&logo=supabase)](https://supabase.com/)
-  [![Gemini AI](https://img.shields.io/badge/AI-Google%20Gemini-8e75b2?style=for-the-badge&logo=google)](https://deepmind.google/technologies/gemini/)
 
   <h3>Democratizing Sustainability with AI & Blockchain</h3>
   <p>Track. Trade. Offset. Verify.</p>
 
-  [**View Screenshot**](#-project-screenshot) • [**Features**](#-key-features) • [**Tech Stack**](#-tech-stack) • [**Getting Started**](#-getting-started)
+  [**Live Demo**](https://green-trade-three.vercel.app/) • [**View Screenshot**](#-project-screenshot) • [**Features**](#-key-features) • [**Tech Stack**](#-tech-stack) • [**Getting Started**](#-getting-started)
 </div>
+
+---
+
+## 🌐 Live Demo
+
+Experience the platform live: **[green-trade-three.vercel.app](https://green-trade-three.vercel.app/)**
 
 ---
 
@@ -81,7 +86,7 @@ Users can calculate their footprint using AI, buy verified credits using Crypto 
 
 1.  **Clone the repository**
     ```bash
-    git clone https://github.com/ShreyasDambalkar/GreenTrade.git
+    git clone https://github.com/AtharvSc/GreenTrade.git
     cd GreenTrade
     ```
 
@@ -148,5 +153,5 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ---
 
 <div align="center">
-  Built with 💚 and ☕ by <b>GreenTrade Team</b>
+  Built with 💚 and ☕ by <b>Shreyas Dambalkar</b>
 </div>
