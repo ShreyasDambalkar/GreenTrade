@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import Link from "next/link";
 import { ConnectButton } from "thirdweb/react";
@@ -68,6 +68,7 @@ export default function Home() {
                 window.dispatchEvent(new CustomEvent('open-mega-menu'));
               }}
             />
+            <CTA href="/tracking" label="Live Tracking" variant="secondary" />
             <CTA href="#how-it-works" label="Learn More" variant="secondary" />
           </div>
         </Reveal>

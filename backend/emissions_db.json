@@ -1,0 +1,1302 @@
+[
+    {
+        "id": "b1f3c64c-4479-4d2d-9f1f-d5575081d2ce",
+        "timestamp": "2026-03-08T15:05:50.917840",
+        "sector": "Transportation",
+        "source": "public",
+        "activity_type": "Public Fleet Logs",
+        "quantity": 2839.66,
+        "unit": "Liters",
+        "co2_emission": 7.6103
+    },
+    {
+        "id": "4d38551e-a632-4a3d-afc9-7b77d0161468",
+        "timestamp": "2026-03-08T15:05:50.912825",
+        "sector": "Energy",
+        "source": "iot",
+        "activity_type": "Real-time Sensor Reading",
+        "quantity": 68.88,
+        "unit": "kWh",
+        "co2_emission": 0.0565
+    },
+    {
+        "id": "de9ed77d-07d0-4ead-b236-53ce05fef0c5",
+        "timestamp": "2026-03-08T15:04:40.607858",
+        "sector": "Transportation",
+        "source": "public",
+        "activity_type": "Public Fleet Logs",
+        "quantity": 2171.12,
+        "unit": "Liters",
+        "co2_emission": 5.8186
+    },
+    {
+        "id": "8bb1bc0e-7a7b-47f4-9328-14cd994e968d",
+        "timestamp": "2026-03-08T15:04:40.600939",
+        "sector": "Energy",
+        "source": "iot",
+        "activity_type": "Real-time Sensor Reading",
+        "quantity": 136.6,
+        "unit": "kWh",
+        "co2_emission": 0.112
+    },
+    {
+        "id": "6dc17842-650d-4f3b-bac5-0c7cee66ff71",
+        "timestamp": "2026-03-08T15:03:30.595371",
+        "sector": "Transportation",
+        "source": "public",
+        "activity_type": "Public Fleet Logs",
+        "quantity": 4832.17,
+        "unit": "Liters",
+        "co2_emission": 12.9502
+    },
+    {
+        "id": "13be5143-0ea1-4de6-84a3-0abe6e2dcef0",
+        "timestamp": "2026-03-08T15:03:30.590791",
+        "sector": "Energy",
+        "source": "iot",
+        "activity_type": "Real-time Sensor Reading",
+        "quantity": 54.27,
+        "unit": "kWh",
+        "co2_emission": 0.0445
+    },
+    {
+        "id": "47a94122-7ce7-42d6-829b-a683cb036f3d",
+        "timestamp": "2026-03-08T15:02:20.600903",
+        "sector": "Transportation",
+        "source": "public",
+        "activity_type": "Public Fleet Logs",
+        "quantity": 2570.23,
+        "unit": "Liters",
+        "co2_emission": 6.8882
+    },
+    {
+        "id": "6be01e78-de3f-463c-8100-5cd61eba57b4",
+        "timestamp": "2026-03-08T15:02:20.594364",
+        "sector": "Energy",
+        "source": "iot",
+        "activity_type": "Real-time Sensor Reading",
+        "quantity": 148.22,
+        "unit": "kWh",
+        "co2_emission": 0.1215
+    },
+    {
+        "id": "a0df0c2a-355c-4d15-b756-e13014afbd22",
+        "timestamp": "2026-03-08T15:01:50.905247",
+        "sector": "Manufacturing",
+        "source": "manual",
+        "activity_type": "Energy - electricity",
+        "quantity": 2.0,
+        "unit": "kWh",
+        "co2_emission": 0.0016
+    },
+    {
+        "id": "e995a780-837d-45c5-8546-765dc061ccdc",
+        "timestamp": "2026-03-08T15:01:10.590348",
+        "sector": "Transportation",
+        "source": "public",
+        "activity_type": "Public Fleet Logs",
+        "quantity": 4252.2,
+        "unit": "Liters",
+        "co2_emission": 11.3959
+    },
+    {
+        "id": "cb85e325-e88b-4ca9-b98a-3c450c48779b",
+        "timestamp": "2026-03-08T15:01:10.584802",
+        "sector": "Energy",
+        "source": "iot",
+        "activity_type": "Real-time Sensor Reading",
+        "quantity": 119.74,
+        "unit": "kWh",
+        "co2_emission": 0.0982
+    },
+    {
+        "id": "dd46767f-fd42-4175-ba14-0b753a199309",
+        "timestamp": "2026-03-08T15:00:00.742737",
+        "sector": "Transportation",
+        "source": "public",
+        "activity_type": "Public Fleet Logs",
+        "quantity": 4193.01,
+        "unit": "Liters",
+        "co2_emission": 11.2373
+    },
+    {
+        "id": "416ee018-afd3-4e8b-904a-6e14ed11dc78",
+        "timestamp": "2026-03-08T15:00:00.737699",
+        "sector": "Energy",
+        "source": "iot",
+        "activity_type": "Real-time Sensor Reading",
+        "quantity": 53.58,
+        "unit": "kWh",
+        "co2_emission": 0.0439
+    },
+    {
+        "id": "d836bbae-5852-4966-936c-17113d90361a",
+        "timestamp": "2026-03-08T14:58:50.895827",
+        "sector": "Transportation",
+        "source": "public",
+        "activity_type": "Public Fleet Logs",
+        "quantity": 3661.46,
+        "unit": "Liters",
+        "co2_emission": 9.8127
+    },
+    {
+        "id": "4fdf48af-fe4e-4483-b3e8-f0cbb5bce038",
+        "timestamp": "2026-03-08T14:58:50.892815",
+        "sector": "Energy",
+        "source": "iot",
+        "activity_type": "Real-time Sensor Reading",
+        "quantity": 119.65,
+        "unit": "kWh",
+        "co2_emission": 0.0981
+    },
+    {
+        "id": "3ba984eb-63fd-4e1c-86f7-939eb1b4b7c4",
+        "timestamp": "2026-03-08T14:57:46.202925",
+        "sector": "Transportation",
+        "source": "public",
+        "activity_type": "Public Fleet Logs",
+        "quantity": 2443.72,
+        "unit": "Liters",
+        "co2_emission": 6.5492
+    },
+    {
+        "id": "06fda61f-a9a6-42c1-bfb9-00656e17bcf5",
+        "timestamp": "2026-03-08T14:57:46.199818",
+        "sector": "Energy",
+        "source": "iot",
+        "activity_type": "Real-time Sensor Reading",
+        "quantity": 135.88,
+        "unit": "kWh",
+        "co2_emission": 0.1114
+    },
+    {
+        "id": "d7348cf0-4db2-407b-9ab9-fc95a300beb6",
+        "timestamp": "2026-03-08T14:57:40.870175",
+        "sector": "Energy",
+        "source": "manual",
+        "activity_type": "Electricity Usage",
+        "quantity": 379.35,
+        "unit": "kWh",
+        "co2_emission": 0.3111
+    },
+    {
+        "id": "fe9433a6-1c56-4007-890d-5e8f9336b203",
+        "timestamp": "2026-03-08T14:57:40.870175",
+        "sector": "Transportation",
+        "source": "public",
+        "activity_type": "Fleet Fuel",
+        "quantity": 4000.49,
+        "unit": "Liters",
+        "co2_emission": 10.7213
+    },
+    {
+        "id": "10b865ec-37f7-43c5-b680-2b00afcd5e09",
+        "timestamp": "2026-03-08T14:57:40.870175",
+        "sector": "Manufacturing",
+        "source": "iot",
+        "activity_type": "Plant Power",
+        "quantity": 1891.74,
+        "unit": "kWh",
+        "co2_emission": 1.5512
+    },
+    {
+        "id": "78720a31-468f-4bd7-81f3-f3ca088afc83",
+        "timestamp": "2026-03-08T14:56:46.262280",
+        "sector": "Transportation",
+        "source": "public",
+        "activity_type": "Public Fleet Logs",
+        "quantity": 4717.86,
+        "unit": "Liters",
+        "co2_emission": 12.6439
+    },
+    {
+        "id": "98684e70-4211-4826-8684-01ac1b41eb01",
+        "timestamp": "2026-03-08T14:56:46.260251",
+        "sector": "Energy",
+        "source": "iot",
+        "activity_type": "Real-time Sensor Reading",
+        "quantity": 113.17,
+        "unit": "kWh",
+        "co2_emission": 0.0928
+    },
+    {
+        "id": "17aede14-a8fe-4258-87f4-a1b25d3174b4",
+        "timestamp": "2026-03-08T14:55:35.999731",
+        "sector": "Transportation",
+        "source": "public",
+        "activity_type": "Public Fleet Logs",
+        "quantity": 2634.03,
+        "unit": "Liters",
+        "co2_emission": 7.0592
+    },
+    {
+        "id": "2b1ec06a-cb3a-4536-ad5c-6e4663ce0aa4",
+        "timestamp": "2026-03-08T14:55:35.998198",
+        "sector": "Energy",
+        "source": "iot",
+        "activity_type": "Real-time Sensor Reading",
+        "quantity": 59.07,
+        "unit": "kWh",
+        "co2_emission": 0.0484
+    },
+    {
+        "id": "bb54af83-53ea-4082-816c-464b3ac4f5de",
+        "timestamp": "2026-03-08T14:54:26.675961",
+        "sector": "Transportation",
+        "source": "public",
+        "activity_type": "Public Fleet Logs",
+        "quantity": 2524.94,
+        "unit": "Liters",
+        "co2_emission": 6.7669
+    },
+    {
+        "id": "86c877fd-540b-476c-a5f2-3f0196d5b771",
+        "timestamp": "2026-03-08T14:54:26.673848",
+        "sector": "Energy",
+        "source": "iot",
+        "activity_type": "Real-time Sensor Reading",
+        "quantity": 130.51,
+        "unit": "kWh",
+        "co2_emission": 0.107
+    },
+    {
+        "id": "4aaf1d1a-0e60-4432-b699-9191a246191a",
+        "timestamp": "2026-03-08T14:53:25.918128",
+        "sector": "Transportation",
+        "source": "public",
+        "activity_type": "Public Fleet Logs",
+        "quantity": 3978.61,
+        "unit": "Liters",
+        "co2_emission": 10.6627
+    },
+    {
+        "id": "348eaa61-f819-4858-99e2-0e21cacd0bfd",
+        "timestamp": "2026-03-08T14:53:25.915439",
+        "sector": "Energy",
+        "source": "iot",
+        "activity_type": "Real-time Sensor Reading",
+        "quantity": 124.47,
+        "unit": "kWh",
+        "co2_emission": 0.1021
+    },
+    {
+        "id": "0fa2055d-eb32-4e00-8b7f-ed3160f1f112",
+        "timestamp": "2026-03-08T14:52:15.969735",
+        "sector": "Transportation",
+        "source": "public",
+        "activity_type": "Public Fleet Logs",
+        "quantity": 3407.88,
+        "unit": "Liters",
+        "co2_emission": 9.1331
+    },
+    {
+        "id": "a031deb6-2c71-4931-813a-b96ef864918b",
+        "timestamp": "2026-03-08T14:52:15.967765",
+        "sector": "Energy",
+        "source": "iot",
+        "activity_type": "Real-time Sensor Reading",
+        "quantity": 76.4,
+        "unit": "kWh",
+        "co2_emission": 0.0627
+    },
+    {
+        "id": "bade0277-a75c-47ae-87ce-fa82f5d7a4f5",
+        "timestamp": "2026-03-08T14:51:05.989300",
+        "sector": "Transportation",
+        "source": "public",
+        "activity_type": "Public Fleet Logs",
+        "quantity": 3693.6,
+        "unit": "Liters",
+        "co2_emission": 9.8989
+    },
+    {
+        "id": "6837ddd3-15e9-43c6-9d52-c7efc5a076ef",
+        "timestamp": "2026-03-08T14:51:05.987344",
+        "sector": "Energy",
+        "source": "iot",
+        "activity_type": "Real-time Sensor Reading",
+        "quantity": 121.32,
+        "unit": "kWh",
+        "co2_emission": 0.0995
+    },
+    {
+        "id": "8823c1dd-018b-4f4a-bd17-f0babfa271d7",
+        "timestamp": "2026-03-08T14:50:05.874375",
+        "sector": "Transportation",
+        "source": "public",
+        "activity_type": "Public Fleet Logs",
+        "quantity": 3787.52,
+        "unit": "Liters",
+        "co2_emission": 10.1506
+    },
+    {
+        "id": "69939051-12bb-49d0-b210-2146826e90e2",
+        "timestamp": "2026-03-08T14:50:05.872384",
+        "sector": "Energy",
+        "source": "iot",
+        "activity_type": "Real-time Sensor Reading",
+        "quantity": 103.74,
+        "unit": "kWh",
+        "co2_emission": 0.0851
+    },
+    {
+        "id": "ba7e776a-a80e-4436-9322-7240d8567538",
+        "timestamp": "2026-03-08T14:48:52.153796",
+        "sector": "Transportation",
+        "source": "public",
+        "activity_type": "Public Fleet Logs",
+        "quantity": 3372.27,
+        "unit": "Liters",
+        "co2_emission": 9.0377
+    },
+    {
+        "id": "d2ca50cf-e76e-4fc2-83d0-060758d842ab",
+        "timestamp": "2026-03-08T14:48:52.151137",
+        "sector": "Energy",
+        "source": "iot",
+        "activity_type": "Real-time Sensor Reading",
+        "quantity": 94.23,
+        "unit": "kWh",
+        "co2_emission": 0.0773
+    },
+    {
+        "id": "dff88ea6-34f1-4ad8-b763-64c75367dc71",
+        "timestamp": "2026-03-08T14:47:46.491887",
+        "sector": "Transportation",
+        "source": "public",
+        "activity_type": "Public Fleet Logs",
+        "quantity": 2675.33,
+        "unit": "Liters",
+        "co2_emission": 7.1699
+    },
+    {
+        "id": "ae78fa87-cb86-4fe5-9aec-343d78327c7c",
+        "timestamp": "2026-03-08T14:47:46.490792",
+        "sector": "Energy",
+        "source": "iot",
+        "activity_type": "Real-time Sensor Reading",
+        "quantity": 138.81,
+        "unit": "kWh",
+        "co2_emission": 0.1138
+    },
+    {
+        "id": "ee70d31c-6c84-456d-835c-da865462c6c2",
+        "timestamp": "2026-03-07T14:57:40.870175",
+        "sector": "Energy",
+        "source": "iot",
+        "activity_type": "Electricity Usage",
+        "quantity": 481.68,
+        "unit": "kWh",
+        "co2_emission": 0.395
+    },
+    {
+        "id": "58ed95f3-004c-4638-b572-48d99ff741ea",
+        "timestamp": "2026-03-07T14:57:40.870175",
+        "sector": "Transportation",
+        "source": "public",
+        "activity_type": "Fleet Fuel",
+        "quantity": 4533.71,
+        "unit": "Liters",
+        "co2_emission": 12.1504
+    },
+    {
+        "id": "d26cac6c-4706-4599-998f-c159fb043fc4",
+        "timestamp": "2026-03-07T14:57:40.870175",
+        "sector": "Manufacturing",
+        "source": "iot",
+        "activity_type": "Plant Power",
+        "quantity": 2222.85,
+        "unit": "kWh",
+        "co2_emission": 1.8227
+    },
+    {
+        "id": "96d83716-1796-411b-82c5-f324b6b31c49",
+        "timestamp": "2026-03-06T14:57:40.870175",
+        "sector": "Energy",
+        "source": "manual",
+        "activity_type": "Electricity Usage",
+        "quantity": 532.57,
+        "unit": "kWh",
+        "co2_emission": 0.4367
+    },
+    {
+        "id": "459b2bc2-eacc-492d-bf1e-3a0944eca434",
+        "timestamp": "2026-03-06T14:57:40.870175",
+        "sector": "Transportation",
+        "source": "iot",
+        "activity_type": "Fleet Fuel",
+        "quantity": 4949.22,
+        "unit": "Liters",
+        "co2_emission": 13.2639
+    },
+    {
+        "id": "b204e39c-69c1-4959-bef9-9e00a9dbc971",
+        "timestamp": "2026-03-06T14:57:40.870175",
+        "sector": "Manufacturing",
+        "source": "iot",
+        "activity_type": "Plant Power",
+        "quantity": 2808.68,
+        "unit": "kWh",
+        "co2_emission": 2.3031
+    },
+    {
+        "id": "1f3937d5-bf4b-45aa-aa93-2f0bbe0c7fa3",
+        "timestamp": "2026-03-05T14:57:40.870175",
+        "sector": "Energy",
+        "source": "iot",
+        "activity_type": "Electricity Usage",
+        "quantity": 610.02,
+        "unit": "kWh",
+        "co2_emission": 0.5002
+    },
+    {
+        "id": "a80b6d55-ecf0-46e7-b269-9828e468d9d9",
+        "timestamp": "2026-03-05T14:57:40.870175",
+        "sector": "Transportation",
+        "source": "iot",
+        "activity_type": "Fleet Fuel",
+        "quantity": 5428.58,
+        "unit": "Liters",
+        "co2_emission": 14.5486
+    },
+    {
+        "id": "f8c719a7-7b9b-425d-8741-afeae9e31498",
+        "timestamp": "2026-03-05T14:57:40.870175",
+        "sector": "Manufacturing",
+        "source": "public",
+        "activity_type": "Plant Power",
+        "quantity": 2734.34,
+        "unit": "kWh",
+        "co2_emission": 2.2422
+    },
+    {
+        "id": "8c6dbdf3-df87-4e12-ae9a-74e132204efa",
+        "timestamp": "2026-03-04T14:57:40.870175",
+        "sector": "Energy",
+        "source": "manual",
+        "activity_type": "Electricity Usage",
+        "quantity": 685.82,
+        "unit": "kWh",
+        "co2_emission": 0.5624
+    },
+    {
+        "id": "55ec7055-75e3-462c-9eea-aee76e35d18a",
+        "timestamp": "2026-03-04T14:57:40.870175",
+        "sector": "Transportation",
+        "source": "manual",
+        "activity_type": "Fleet Fuel",
+        "quantity": 6165.84,
+        "unit": "Liters",
+        "co2_emission": 16.5245
+    },
+    {
+        "id": "9de9e573-607e-4956-b4ae-2aeeb38c1414",
+        "timestamp": "2026-03-04T14:57:40.870175",
+        "sector": "Manufacturing",
+        "source": "public",
+        "activity_type": "Plant Power",
+        "quantity": 3370.75,
+        "unit": "kWh",
+        "co2_emission": 2.764
+    },
+    {
+        "id": "fca7ac0d-0f28-422e-a8cb-882ad9924ef8",
+        "timestamp": "2026-03-03T14:57:40.870175",
+        "sector": "Energy",
+        "source": "iot",
+        "activity_type": "Electricity Usage",
+        "quantity": 632.18,
+        "unit": "kWh",
+        "co2_emission": 0.5184
+    },
+    {
+        "id": "ef244ae6-b995-4e15-a127-27e973592253",
+        "timestamp": "2026-03-03T14:57:40.870175",
+        "sector": "Transportation",
+        "source": "public",
+        "activity_type": "Fleet Fuel",
+        "quantity": 6413.03,
+        "unit": "Liters",
+        "co2_emission": 17.1869
+    },
+    {
+        "id": "342aac9e-89e8-4a33-b485-3eac414712fd",
+        "timestamp": "2026-03-03T14:57:40.870175",
+        "sector": "Manufacturing",
+        "source": "public",
+        "activity_type": "Plant Power",
+        "quantity": 3557.34,
+        "unit": "kWh",
+        "co2_emission": 2.917
+    },
+    {
+        "id": "4cafcab7-8b13-4220-89f3-62ff00ecebd1",
+        "timestamp": "2026-03-02T14:57:40.870175",
+        "sector": "Energy",
+        "source": "manual",
+        "activity_type": "Electricity Usage",
+        "quantity": 659.21,
+        "unit": "kWh",
+        "co2_emission": 0.5406
+    },
+    {
+        "id": "29d9514d-97b7-434a-96f5-3376eedbf46b",
+        "timestamp": "2026-03-02T14:57:40.870175",
+        "sector": "Transportation",
+        "source": "manual",
+        "activity_type": "Fleet Fuel",
+        "quantity": 7082.09,
+        "unit": "Liters",
+        "co2_emission": 18.98
+    },
+    {
+        "id": "f6c4fe4c-4f7c-4f45-9ab1-89fe611ba943",
+        "timestamp": "2026-03-02T14:57:40.870175",
+        "sector": "Manufacturing",
+        "source": "manual",
+        "activity_type": "Plant Power",
+        "quantity": 3415.14,
+        "unit": "kWh",
+        "co2_emission": 2.8004
+    },
+    {
+        "id": "f4ed2ffd-d9a3-4436-8030-6b91f94e78dc",
+        "timestamp": "2026-03-01T14:57:40.870175",
+        "sector": "Energy",
+        "source": "iot",
+        "activity_type": "Electricity Usage",
+        "quantity": 670.98,
+        "unit": "kWh",
+        "co2_emission": 0.5502
+    },
+    {
+        "id": "038917e9-7fe3-46a3-ac96-ea09b241eba0",
+        "timestamp": "2026-03-01T14:57:40.870175",
+        "sector": "Transportation",
+        "source": "manual",
+        "activity_type": "Fleet Fuel",
+        "quantity": 7215.26,
+        "unit": "Liters",
+        "co2_emission": 19.3369
+    },
+    {
+        "id": "c8c65370-c0c0-4bff-b6e5-0c11e9419233",
+        "timestamp": "2026-03-01T14:57:40.870175",
+        "sector": "Manufacturing",
+        "source": "iot",
+        "activity_type": "Plant Power",
+        "quantity": 3372.74,
+        "unit": "kWh",
+        "co2_emission": 2.7656
+    },
+    {
+        "id": "6770b2b5-b9e2-4890-851c-bb83918259bc",
+        "timestamp": "2026-02-28T14:57:40.870175",
+        "sector": "Energy",
+        "source": "manual",
+        "activity_type": "Electricity Usage",
+        "quantity": 705.34,
+        "unit": "kWh",
+        "co2_emission": 0.5784
+    },
+    {
+        "id": "d6031520-4ef5-4d4b-a275-6cf59f55aabb",
+        "timestamp": "2026-02-28T14:57:40.870175",
+        "sector": "Transportation",
+        "source": "iot",
+        "activity_type": "Fleet Fuel",
+        "quantity": 6332.19,
+        "unit": "Liters",
+        "co2_emission": 16.9703
+    },
+    {
+        "id": "c3e0b605-cbce-42d0-a48d-e3d0ffca70e3",
+        "timestamp": "2026-02-28T14:57:40.870175",
+        "sector": "Manufacturing",
+        "source": "iot",
+        "activity_type": "Plant Power",
+        "quantity": 3566.92,
+        "unit": "kWh",
+        "co2_emission": 2.9249
+    },
+    {
+        "id": "1c268961-fc34-4582-b0aa-0d8f14608b8e",
+        "timestamp": "2026-02-27T14:57:40.870175",
+        "sector": "Energy",
+        "source": "public",
+        "activity_type": "Electricity Usage",
+        "quantity": 681.23,
+        "unit": "kWh",
+        "co2_emission": 0.5586
+    },
+    {
+        "id": "89818bfe-80dd-4957-b5af-96a7837feb83",
+        "timestamp": "2026-02-27T14:57:40.870175",
+        "sector": "Transportation",
+        "source": "iot",
+        "activity_type": "Fleet Fuel",
+        "quantity": 6117.34,
+        "unit": "Liters",
+        "co2_emission": 16.3945
+    },
+    {
+        "id": "33817d76-6abc-44d7-8e6a-13cc840c1c32",
+        "timestamp": "2026-02-27T14:57:40.870175",
+        "sector": "Manufacturing",
+        "source": "iot",
+        "activity_type": "Plant Power",
+        "quantity": 3312.43,
+        "unit": "kWh",
+        "co2_emission": 2.7162
+    },
+    {
+        "id": "662a62ec-bc0e-4de6-8a90-7ef2cf378b74",
+        "timestamp": "2026-02-26T14:57:40.870175",
+        "sector": "Energy",
+        "source": "iot",
+        "activity_type": "Electricity Usage",
+        "quantity": 547.45,
+        "unit": "kWh",
+        "co2_emission": 0.4489
+    },
+    {
+        "id": "3989c78c-639d-4a90-9057-f37383b83744",
+        "timestamp": "2026-02-26T14:57:40.870175",
+        "sector": "Transportation",
+        "source": "iot",
+        "activity_type": "Fleet Fuel",
+        "quantity": 6123.58,
+        "unit": "Liters",
+        "co2_emission": 16.4112
+    },
+    {
+        "id": "3b71fee2-be40-4952-b2fa-5de0a618e9ce",
+        "timestamp": "2026-02-26T14:57:40.870175",
+        "sector": "Manufacturing",
+        "source": "manual",
+        "activity_type": "Plant Power",
+        "quantity": 2990.92,
+        "unit": "kWh",
+        "co2_emission": 2.4526
+    },
+    {
+        "id": "615fcd00-450b-4243-84b0-d1c2a54c3c5b",
+        "timestamp": "2026-02-25T14:57:40.870175",
+        "sector": "Energy",
+        "source": "manual",
+        "activity_type": "Electricity Usage",
+        "quantity": 461.17,
+        "unit": "kWh",
+        "co2_emission": 0.3782
+    },
+    {
+        "id": "f7e2d3eb-44ca-4964-88ba-72ee40f5bd4c",
+        "timestamp": "2026-02-25T14:57:40.870175",
+        "sector": "Transportation",
+        "source": "iot",
+        "activity_type": "Fleet Fuel",
+        "quantity": 4905.53,
+        "unit": "Liters",
+        "co2_emission": 13.1468
+    },
+    {
+        "id": "2a4f3749-b3ba-4814-9c45-6be0344e611c",
+        "timestamp": "2026-02-25T14:57:40.870175",
+        "sector": "Manufacturing",
+        "source": "manual",
+        "activity_type": "Plant Power",
+        "quantity": 2460.72,
+        "unit": "kWh",
+        "co2_emission": 2.0178
+    },
+    {
+        "id": "a8bb682e-1cf8-4435-994c-25918c6b7fb1",
+        "timestamp": "2026-02-24T14:57:40.870175",
+        "sector": "Energy",
+        "source": "public",
+        "activity_type": "Electricity Usage",
+        "quantity": 432.23,
+        "unit": "kWh",
+        "co2_emission": 0.3544
+    },
+    {
+        "id": "fdd2420c-8f9e-45ac-aa81-7433f6b802c3",
+        "timestamp": "2026-02-24T14:57:40.870175",
+        "sector": "Transportation",
+        "source": "manual",
+        "activity_type": "Fleet Fuel",
+        "quantity": 4201.13,
+        "unit": "Liters",
+        "co2_emission": 11.259
+    },
+    {
+        "id": "cd648f6e-8e3b-42d7-b8e6-e2c9fedaa7bb",
+        "timestamp": "2026-02-24T14:57:40.870175",
+        "sector": "Manufacturing",
+        "source": "manual",
+        "activity_type": "Plant Power",
+        "quantity": 2049.28,
+        "unit": "kWh",
+        "co2_emission": 1.6804
+    },
+    {
+        "id": "31249e7d-9350-42a9-8965-89bb8acd9de7",
+        "timestamp": "2026-02-23T14:57:40.870175",
+        "sector": "Energy",
+        "source": "iot",
+        "activity_type": "Electricity Usage",
+        "quantity": 366.85,
+        "unit": "kWh",
+        "co2_emission": 0.3008
+    },
+    {
+        "id": "535c6b5e-baa3-45cf-a126-c38b278abd53",
+        "timestamp": "2026-02-23T14:57:40.870175",
+        "sector": "Transportation",
+        "source": "manual",
+        "activity_type": "Fleet Fuel",
+        "quantity": 4331.6,
+        "unit": "Liters",
+        "co2_emission": 11.6087
+    },
+    {
+        "id": "3b9a2e60-6f76-49a8-b191-2269fcbcd90e",
+        "timestamp": "2026-02-23T14:57:40.870175",
+        "sector": "Manufacturing",
+        "source": "iot",
+        "activity_type": "Plant Power",
+        "quantity": 1899.69,
+        "unit": "kWh",
+        "co2_emission": 1.5577
+    },
+    {
+        "id": "736de492-9a3d-42e4-8a3f-0155a31e01a9",
+        "timestamp": "2026-02-22T14:57:40.870175",
+        "sector": "Energy",
+        "source": "iot",
+        "activity_type": "Electricity Usage",
+        "quantity": 325.06,
+        "unit": "kWh",
+        "co2_emission": 0.2665
+    },
+    {
+        "id": "546add73-866e-4a5d-b8b2-ddd2887bc03e",
+        "timestamp": "2026-02-22T14:57:40.870175",
+        "sector": "Transportation",
+        "source": "manual",
+        "activity_type": "Fleet Fuel",
+        "quantity": 3397.72,
+        "unit": "Liters",
+        "co2_emission": 9.1059
+    },
+    {
+        "id": "ec5d948b-b522-4e3a-81ec-cd29689b1075",
+        "timestamp": "2026-02-22T14:57:40.870175",
+        "sector": "Manufacturing",
+        "source": "iot",
+        "activity_type": "Plant Power",
+        "quantity": 1855.6,
+        "unit": "kWh",
+        "co2_emission": 1.5216
+    },
+    {
+        "id": "d063d87c-ee40-4ed1-915a-f33d0b385cee",
+        "timestamp": "2026-02-21T14:57:40.870175",
+        "sector": "Energy",
+        "source": "iot",
+        "activity_type": "Electricity Usage",
+        "quantity": 317.36,
+        "unit": "kWh",
+        "co2_emission": 0.2602
+    },
+    {
+        "id": "f87d3dca-18b9-44dc-9f0e-76f5c9854f8f",
+        "timestamp": "2026-02-21T14:57:40.870175",
+        "sector": "Transportation",
+        "source": "public",
+        "activity_type": "Fleet Fuel",
+        "quantity": 3128.19,
+        "unit": "Liters",
+        "co2_emission": 8.3835
+    },
+    {
+        "id": "df848245-b70b-42a9-ad6e-8bd2ef37217a",
+        "timestamp": "2026-02-21T14:57:40.870175",
+        "sector": "Manufacturing",
+        "source": "iot",
+        "activity_type": "Plant Power",
+        "quantity": 1373.79,
+        "unit": "kWh",
+        "co2_emission": 1.1265
+    },
+    {
+        "id": "3264f174-a706-4e1e-8e66-9c46de3ee50b",
+        "timestamp": "2026-02-20T14:57:40.870175",
+        "sector": "Energy",
+        "source": "iot",
+        "activity_type": "Electricity Usage",
+        "quantity": 318.47,
+        "unit": "kWh",
+        "co2_emission": 0.2611
+    },
+    {
+        "id": "8177d10f-8e99-4e99-8598-8d26825d936f",
+        "timestamp": "2026-02-20T14:57:40.870175",
+        "sector": "Transportation",
+        "source": "public",
+        "activity_type": "Fleet Fuel",
+        "quantity": 3224.97,
+        "unit": "Liters",
+        "co2_emission": 8.6429
+    },
+    {
+        "id": "e74e87a5-27f6-4853-a006-512e4612b53b",
+        "timestamp": "2026-02-20T14:57:40.870175",
+        "sector": "Manufacturing",
+        "source": "manual",
+        "activity_type": "Plant Power",
+        "quantity": 1450.66,
+        "unit": "kWh",
+        "co2_emission": 1.1895
+    },
+    {
+        "id": "3b44ad24-760c-41e0-a138-e02ee5659eba",
+        "timestamp": "2026-02-19T14:57:40.870175",
+        "sector": "Energy",
+        "source": "public",
+        "activity_type": "Electricity Usage",
+        "quantity": 330.26,
+        "unit": "kWh",
+        "co2_emission": 0.2708
+    },
+    {
+        "id": "6d633370-15ae-46e1-ba10-e28be0248d4a",
+        "timestamp": "2026-02-19T14:57:40.870175",
+        "sector": "Transportation",
+        "source": "iot",
+        "activity_type": "Fleet Fuel",
+        "quantity": 3606.4,
+        "unit": "Liters",
+        "co2_emission": 9.6651
+    },
+    {
+        "id": "23d3b7aa-38ed-460b-a1ec-185ec4139863",
+        "timestamp": "2026-02-19T14:57:40.870175",
+        "sector": "Manufacturing",
+        "source": "iot",
+        "activity_type": "Plant Power",
+        "quantity": 1378.67,
+        "unit": "kWh",
+        "co2_emission": 1.1305
+    },
+    {
+        "id": "1087bc01-be6b-4d46-b127-8f848130e651",
+        "timestamp": "2026-02-18T14:57:40.870175",
+        "sector": "Energy",
+        "source": "public",
+        "activity_type": "Electricity Usage",
+        "quantity": 378.95,
+        "unit": "kWh",
+        "co2_emission": 0.3107
+    },
+    {
+        "id": "48ae58a5-3263-4cd9-bdfb-9e7dd99bb77b",
+        "timestamp": "2026-02-18T14:57:40.870175",
+        "sector": "Transportation",
+        "source": "public",
+        "activity_type": "Fleet Fuel",
+        "quantity": 3718.1,
+        "unit": "Liters",
+        "co2_emission": 9.9645
+    },
+    {
+        "id": "a99e23c1-7699-4e38-8a9f-fb00433015bf",
+        "timestamp": "2026-02-18T14:57:40.870175",
+        "sector": "Manufacturing",
+        "source": "public",
+        "activity_type": "Plant Power",
+        "quantity": 1985.25,
+        "unit": "kWh",
+        "co2_emission": 1.6279
+    },
+    {
+        "id": "aa9d6902-6eac-4b0c-87ee-3ef40a1e97b5",
+        "timestamp": "2026-02-17T14:57:40.870175",
+        "sector": "Energy",
+        "source": "public",
+        "activity_type": "Electricity Usage",
+        "quantity": 449.66,
+        "unit": "kWh",
+        "co2_emission": 0.3687
+    },
+    {
+        "id": "f7f09f93-714a-4e6d-8962-93384c00e10b",
+        "timestamp": "2026-02-17T14:57:40.870175",
+        "sector": "Transportation",
+        "source": "public",
+        "activity_type": "Fleet Fuel",
+        "quantity": 3797.37,
+        "unit": "Liters",
+        "co2_emission": 10.177
+    },
+    {
+        "id": "84c95d29-bb82-4c8f-aa83-37de6aa9fccd",
+        "timestamp": "2026-02-17T14:57:40.870175",
+        "sector": "Manufacturing",
+        "source": "manual",
+        "activity_type": "Plant Power",
+        "quantity": 2192.99,
+        "unit": "kWh",
+        "co2_emission": 1.7983
+    },
+    {
+        "id": "e31dc936-b143-4544-941a-0653f364e025",
+        "timestamp": "2026-02-16T14:57:40.870175",
+        "sector": "Energy",
+        "source": "iot",
+        "activity_type": "Electricity Usage",
+        "quantity": 510.28,
+        "unit": "kWh",
+        "co2_emission": 0.4184
+    },
+    {
+        "id": "924c39f8-081a-4e5f-8ec5-370a84ffa2f4",
+        "timestamp": "2026-02-16T14:57:40.870175",
+        "sector": "Transportation",
+        "source": "iot",
+        "activity_type": "Fleet Fuel",
+        "quantity": 4165.45,
+        "unit": "Liters",
+        "co2_emission": 11.1634
+    },
+    {
+        "id": "d3dae1f5-f660-4fd9-8b5d-6d0b0119d16f",
+        "timestamp": "2026-02-16T14:57:40.870175",
+        "sector": "Manufacturing",
+        "source": "public",
+        "activity_type": "Plant Power",
+        "quantity": 2266.17,
+        "unit": "kWh",
+        "co2_emission": 1.8583
+    },
+    {
+        "id": "113accf0-fa7d-4ae8-9b15-c940ed8e5517",
+        "timestamp": "2026-02-15T14:57:40.870175",
+        "sector": "Energy",
+        "source": "public",
+        "activity_type": "Electricity Usage",
+        "quantity": 510.24,
+        "unit": "kWh",
+        "co2_emission": 0.4184
+    },
+    {
+        "id": "55b547e2-41a4-4706-a25b-864d1073c25a",
+        "timestamp": "2026-02-15T14:57:40.870175",
+        "sector": "Transportation",
+        "source": "iot",
+        "activity_type": "Fleet Fuel",
+        "quantity": 4976.05,
+        "unit": "Liters",
+        "co2_emission": 13.3358
+    },
+    {
+        "id": "7064b3d1-ced8-4b69-90e4-5e88162f537d",
+        "timestamp": "2026-02-15T14:57:40.870175",
+        "sector": "Manufacturing",
+        "source": "manual",
+        "activity_type": "Plant Power",
+        "quantity": 2817.1,
+        "unit": "kWh",
+        "co2_emission": 2.31
+    },
+    {
+        "id": "e5587ccd-e3ce-46ab-9af4-46a0c33987bd",
+        "timestamp": "2026-02-14T14:57:40.870175",
+        "sector": "Energy",
+        "source": "iot",
+        "activity_type": "Electricity Usage",
+        "quantity": 588.2,
+        "unit": "kWh",
+        "co2_emission": 0.4823
+    },
+    {
+        "id": "3d63acc1-9ade-41b8-9781-8de6fdc0fb3c",
+        "timestamp": "2026-02-14T14:57:40.870175",
+        "sector": "Transportation",
+        "source": "manual",
+        "activity_type": "Fleet Fuel",
+        "quantity": 6034.78,
+        "unit": "Liters",
+        "co2_emission": 16.1732
+    },
+    {
+        "id": "b1d29d25-f0e1-46cf-baae-6ef568ef7e96",
+        "timestamp": "2026-02-14T14:57:40.870175",
+        "sector": "Manufacturing",
+        "source": "iot",
+        "activity_type": "Plant Power",
+        "quantity": 2883.26,
+        "unit": "kWh",
+        "co2_emission": 2.3643
+    },
+    {
+        "id": "35f4136e-2ab5-47ee-a46c-c904b8c3fada",
+        "timestamp": "2026-02-13T14:57:40.870175",
+        "sector": "Energy",
+        "source": "public",
+        "activity_type": "Electricity Usage",
+        "quantity": 678.01,
+        "unit": "kWh",
+        "co2_emission": 0.556
+    },
+    {
+        "id": "65789c19-119f-4913-ba1a-1585f2d7b3d5",
+        "timestamp": "2026-02-13T14:57:40.870175",
+        "sector": "Transportation",
+        "source": "iot",
+        "activity_type": "Fleet Fuel",
+        "quantity": 5963.56,
+        "unit": "Liters",
+        "co2_emission": 15.9823
+    },
+    {
+        "id": "00e30cf2-3466-4850-9062-9a52a4523856",
+        "timestamp": "2026-02-13T14:57:40.870175",
+        "sector": "Manufacturing",
+        "source": "manual",
+        "activity_type": "Plant Power",
+        "quantity": 3193.98,
+        "unit": "kWh",
+        "co2_emission": 2.6191
+    },
+    {
+        "id": "cb8b8d3b-85da-410d-b590-2636f4b67937",
+        "timestamp": "2026-02-12T14:57:40.870175",
+        "sector": "Energy",
+        "source": "public",
+        "activity_type": "Electricity Usage",
+        "quantity": 686.93,
+        "unit": "kWh",
+        "co2_emission": 0.5633
+    },
+    {
+        "id": "e79df598-9094-469f-825c-877d1873b715",
+        "timestamp": "2026-02-12T14:57:40.870175",
+        "sector": "Transportation",
+        "source": "public",
+        "activity_type": "Fleet Fuel",
+        "quantity": 7163.86,
+        "unit": "Liters",
+        "co2_emission": 19.1991
+    },
+    {
+        "id": "1f7a8985-02ba-4826-8616-8a5f84a0891e",
+        "timestamp": "2026-02-12T14:57:40.870175",
+        "sector": "Manufacturing",
+        "source": "iot",
+        "activity_type": "Plant Power",
+        "quantity": 3608.88,
+        "unit": "kWh",
+        "co2_emission": 2.9593
+    },
+    {
+        "id": "a377510d-d134-40c9-b5eb-8d5e65c908a1",
+        "timestamp": "2026-02-11T14:57:40.870175",
+        "sector": "Energy",
+        "source": "manual",
+        "activity_type": "Electricity Usage",
+        "quantity": 691.35,
+        "unit": "kWh",
+        "co2_emission": 0.5669
+    },
+    {
+        "id": "64e3c25e-c26f-4748-8411-df651eb0fe9c",
+        "timestamp": "2026-02-11T14:57:40.870175",
+        "sector": "Transportation",
+        "source": "iot",
+        "activity_type": "Fleet Fuel",
+        "quantity": 6742.65,
+        "unit": "Liters",
+        "co2_emission": 18.0703
+    },
+    {
+        "id": "ee6cbe3e-9581-4abb-8ee0-78c3df47a8a9",
+        "timestamp": "2026-02-11T14:57:40.870175",
+        "sector": "Manufacturing",
+        "source": "manual",
+        "activity_type": "Plant Power",
+        "quantity": 3536.06,
+        "unit": "kWh",
+        "co2_emission": 2.8996
+    },
+    {
+        "id": "471ff8e1-20ce-46ea-b5c0-6c38e2c7ae36",
+        "timestamp": "2026-02-10T14:57:40.870175",
+        "sector": "Energy",
+        "source": "iot",
+        "activity_type": "Electricity Usage",
+        "quantity": 713.72,
+        "unit": "kWh",
+        "co2_emission": 0.5852
+    },
+    {
+        "id": "e4ddab7b-3d33-462d-940e-3cce5175de14",
+        "timestamp": "2026-02-10T14:57:40.870175",
+        "sector": "Transportation",
+        "source": "manual",
+        "activity_type": "Fleet Fuel",
+        "quantity": 6740.4,
+        "unit": "Liters",
+        "co2_emission": 18.0643
+    },
+    {
+        "id": "6a876967-5025-404b-a223-9ec7ebb52759",
+        "timestamp": "2026-02-10T14:57:40.870175",
+        "sector": "Manufacturing",
+        "source": "iot",
+        "activity_type": "Plant Power",
+        "quantity": 3665.26,
+        "unit": "kWh",
+        "co2_emission": 3.0055
+    },
+    {
+        "id": "f18c2ec1-4b92-4416-bb44-8c6717b7e601",
+        "timestamp": "2026-02-09T14:57:40.870175",
+        "sector": "Energy",
+        "source": "iot",
+        "activity_type": "Electricity Usage",
+        "quantity": 626.82,
+        "unit": "kWh",
+        "co2_emission": 0.514
+    },
+    {
+        "id": "3e505dfb-db78-4dda-8597-ff6ab4a50acf",
+        "timestamp": "2026-02-09T14:57:40.870175",
+        "sector": "Transportation",
+        "source": "manual",
+        "activity_type": "Fleet Fuel",
+        "quantity": 7148.89,
+        "unit": "Liters",
+        "co2_emission": 19.159
+    },
+    {
+        "id": "8e47f13e-fbab-4aba-af79-3d2b58bfa037",
+        "timestamp": "2026-02-09T14:57:40.870175",
+        "sector": "Manufacturing",
+        "source": "iot",
+        "activity_type": "Plant Power",
+        "quantity": 3109.44,
+        "unit": "kWh",
+        "co2_emission": 2.5497
+    },
+    {
+        "id": "15261f96-1afe-443a-b19f-c75ef15410ed",
+        "timestamp": "2026-02-08T14:57:40.870175",
+        "sector": "Energy",
+        "source": "manual",
+        "activity_type": "Electricity Usage",
+        "quantity": 636.24,
+        "unit": "kWh",
+        "co2_emission": 0.5217
+    },
+    {
+        "id": "c8c580f9-4de6-49af-9fae-42d7487db379",
+        "timestamp": "2026-02-08T14:57:40.870175",
+        "sector": "Transportation",
+        "source": "public",
+        "activity_type": "Fleet Fuel",
+        "quantity": 6499.31,
+        "unit": "Liters",
+        "co2_emission": 17.4181
+    },
+    {
+        "id": "e6a3f8bd-b548-4e6a-8fd9-5fae9d8cad5f",
+        "timestamp": "2026-02-08T14:57:40.870175",
+        "sector": "Manufacturing",
+        "source": "manual",
+        "activity_type": "Plant Power",
+        "quantity": 3087.88,
+        "unit": "kWh",
+        "co2_emission": 2.5321
+    },
+    {
+        "id": "a790370c-af58-415f-9f19-390a4b543999",
+        "timestamp": "2026-02-07T14:57:40.870175",
+        "sector": "Energy",
+        "source": "iot",
+        "activity_type": "Electricity Usage",
+        "quantity": 535.46,
+        "unit": "kWh",
+        "co2_emission": 0.4391
+    },
+    {
+        "id": "73151b34-99e5-43c7-b78e-497fd4584334",
+        "timestamp": "2026-02-07T14:57:40.870175",
+        "sector": "Transportation",
+        "source": "public",
+        "activity_type": "Fleet Fuel",
+        "quantity": 5483.41,
+        "unit": "Liters",
+        "co2_emission": 14.6955
+    },
+    {
+        "id": "2ba26539-81b9-4711-8e0c-bb50226e09da",
+        "timestamp": "2026-02-07T14:57:40.870175",
+        "sector": "Manufacturing",
+        "source": "iot",
+        "activity_type": "Plant Power",
+        "quantity": 2690.75,
+        "unit": "kWh",
+        "co2_emission": 2.2064
+    },
+    {
+        "id": "c3f82fdd-358c-4551-8f12-afc2591079b0",
+        "timestamp": "2026-02-06T14:57:40.870175",
+        "sector": "Energy",
+        "source": "public",
+        "activity_type": "Electricity Usage",
+        "quantity": 478.99,
+        "unit": "kWh",
+        "co2_emission": 0.3928
+    },
+    {
+        "id": "41aa2f2d-61ca-479d-bec8-8a41e56523c5",
+        "timestamp": "2026-02-06T14:57:40.870175",
+        "sector": "Transportation",
+        "source": "manual",
+        "activity_type": "Fleet Fuel",
+        "quantity": 4749.89,
+        "unit": "Liters",
+        "co2_emission": 12.7297
+    },
+    {
+        "id": "c9b0743d-1528-4ee8-abef-d06f29d1a547",
+        "timestamp": "2026-02-06T14:57:40.870175",
+        "sector": "Manufacturing",
+        "source": "public",
+        "activity_type": "Plant Power",
+        "quantity": 2461.3,
+        "unit": "kWh",
+        "co2_emission": 2.0183
+    },
+    {
+        "id": "70044c95-fb73-4e1e-904a-7d679813e840",
+        "timestamp": "2026-03-08T15:07:00.596679",
+        "sector": "Energy",
+        "source": "iot",
+        "activity_type": "Real-time Sensor Reading",
+        "quantity": 64.03,
+        "unit": "kWh",
+        "co2_emission": 0.0525
+    },
+    {
+        "id": "75b9f540-39f1-469d-a9ef-1f810dc85ef8",
+        "timestamp": "2026-03-08T15:07:00.602150",
+        "sector": "Transportation",
+        "source": "public",
+        "activity_type": "Public Fleet Logs",
+        "quantity": 4094.0,
+        "unit": "Liters",
+        "co2_emission": 10.9719
+    }
+]

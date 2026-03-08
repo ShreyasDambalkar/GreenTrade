@@ -1,8 +1,8 @@
-﻿"use client";
+"use client";
 
 import Link from "next/link";
 import { useState, useRef, useEffect } from "react";
-import { ChevronDown, Calculator, Recycle, Calendar, Leaf, MessageCircle, TrendingUp, BarChart3, Droplet } from "lucide-react";
+import { ChevronDown, Calculator, Recycle, Calendar, Leaf, MessageCircle, TrendingUp, BarChart3, Droplet, Globe } from "lucide-react";
 
 interface AITool {
   id: string;
@@ -79,12 +79,30 @@ const AI_TOOLS: AITool[] = [
     status: 'available'
   },
   {
+    id: 'emission-monitor',
+    name: 'Global Emission Monitor',
+    description: 'Real-time tracking and AI forecasting of industrial emissions with blockchain verification',
+    href: '/public-dashboard',
+    icon: <Globe className="w-5 h-5" />,
+    badge: 'LIVE',
+    status: 'available'
+  },
+  {
     id: 'sustainable-alternatives',
     name: 'Sustainable Alternatives',
     description: 'Discover eco friendly alternatives to everyday products with AI powered recommendations',
     href: '/sustainable-alternatives',
     icon: <Leaf className="w-5 h-5" />,
     badge: 'AI',
+    status: 'available'
+  },
+  {
+    id: 'live-tracking',
+    name: 'Live Ingestion Tracking',
+    description: 'Real-time monitoring of Scope 1, 2, and 3 emissions through IoT connectivity and public dataset integration.',
+    href: '/tracking',
+    icon: <BarChart3 className="w-5 h-5" />,
+    badge: 'NEW',
     status: 'available'
   }
 ];

@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from routers import auth, credits, rewards, audit
+from routers import auth, credits, rewards, audit, tracking
 import os
 import json
 
@@ -25,6 +25,7 @@ app.include_router(auth.router, prefix="/api/auth", tags=["auth"])
 app.include_router(credits.router, prefix="/api/credits", tags=["credits"])
 app.include_router(rewards.router, prefix="/api/rewards", tags=["rewards"])
 app.include_router(audit.router, prefix="/api/audit", tags=["audit"])
+app.include_router(tracking.router, prefix="/api/tracking", tags=["tracking"])
 
 @app.get("/")
 def root():

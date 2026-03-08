@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
@@ -181,6 +181,13 @@ export default function NavBar() {
 								className="block px-3 py-2 ml-3 rounded-lg text-zinc-300 hover:bg-emerald-900/20 transition-colors"
 							>
 								🗑️ Plastic Tracker
+							</Link>
+							<Link
+								href="/tracking"
+								onClick={() => setMobileMenuOpen(false)}
+								className="block px-3 py-2 ml-3 rounded-lg text-zinc-300 hover:bg-emerald-900/20 transition-colors"
+							>
+								📈 Live Tracking Hub
 							</Link>
 							<Link
 								href="/audit"
