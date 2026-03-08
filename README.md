@@ -20,7 +20,6 @@
 
 ## 🌐 Live Demo
 
-Experience the platform live: **[green-trade-three.vercel.app](https://green-trade-three.vercel.app/)**
 
 ---
 
